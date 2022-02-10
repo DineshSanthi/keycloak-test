@@ -13,6 +13,11 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
 
+bootJar {    
+    baseName = "SpringBoot"
+    version =  '0.0.1'
+}
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
